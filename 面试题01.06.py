@@ -33,6 +33,7 @@ class Solution:
             return new_S
         else:
             return S
+
 方法三：我们从左往右遍历字符串，用 ch 记录当前要压缩的字符，cnt 记录 ch 出现的次数，
 如果当前枚举到的字符 s[i] 等于 ch ，我们就更新 cnt 的计数，即 cnt = cnt + 1，
 否则我们按题目要求将 ch 以及 cnt 更新到答案字符串 ans 里，即 ans = ans + ch + cnt，完成对 ch 字符的压缩。
