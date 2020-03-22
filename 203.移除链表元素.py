@@ -15,3 +15,5 @@ class Solution:
                 pre = cur
             cur = cur.next
         return sen.next
+时间复杂度：O(N)，只遍历了一次。
+空间复杂度：O(1)。
