@@ -20,6 +20,7 @@ class Solution:
                     return False
         return True
 
+
 方法二：
 class Solution(object): #aw
     def lemonadeChange(self, bills):
