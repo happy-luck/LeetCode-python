@@ -36,7 +36,7 @@ class Solution:
         
         pre = -1
         for i in range(n):
-            if tmp[i][0] != tmp[i - 1][0]:
+            if i != 0 and tmp[i][0] != tmp[i - 1][0]:
                 pre = i - 1
             vec[tmp[i][1]] = pre + 1
         return vec
