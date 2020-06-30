@@ -1,4 +1,4 @@
-方法一（自己）：
+方法一（）：
 class Solution:
     def shuffle(self, nums: List[int], n: int) -> List[int]:
         res = []
